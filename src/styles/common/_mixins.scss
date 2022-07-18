@@ -1,0 +1,17 @@
+@mixin inner($width: 1278px) {
+  max-width: $width; // max-width - для адаптива
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+@mixin menu-link {
+  font-family: $font;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $base-white;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
