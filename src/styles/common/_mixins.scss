@@ -17,3 +17,19 @@
   text-decoration: none;
 }
 
+@mixin general-btn {
+  display: inline-block;
+  min-width: 497px;
+  min-height: 104px;
+  margin: 0;
+  padding: 30px 36px 31px 48px;
+  color: $base-white;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;
+  text-decoration: none;
+  text-align: center;
+  background-color: $base-red;
+  border-radius: 4px;
+}
+

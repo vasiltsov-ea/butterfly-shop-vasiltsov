@@ -5,7 +5,7 @@
   z-index: 1000;
   width: 100%;
   background-color: $base-dark;
-  }
+}
 
 .header-inner {
   @include inner;
@@ -14,15 +14,6 @@
 .header-wrapper {
   display: flex;
   align-items: center;
-}
-
-.menu-link {
-  @include menu-link;
-
-  &.link-catalogue {
-    background-color: $base-red;
-  }
-
 }
 
 .header-logo {
@@ -35,13 +26,6 @@
   text-decoration: none;
 }
 
-// .header-phone {
-//   margin-left: 100px;
-//   font-size: 24px;
-//   line-height: 33px;
-//   color: $color-light;
-//   text-decoration: none;
-// }
 .menu-list {
   display: flex;
   margin: 0 -3px 0 -5px;
@@ -52,8 +36,23 @@
 .menu-item {
   padding-left: $gap * .5;
   padding-right: $gap * .5;
-
 }
+
+.menu-link {
+  @include menu-link;
+
+  &.link-catalogue {
+    background-color: $base-red;
+  }
+}
+
+// .header-phone {
+//   margin-left: 100px;
+//   font-size: 24px;
+//   line-height: 33px;
+//   color: $color-light;
+//   text-decoration: none;
+// }
 
 
 
