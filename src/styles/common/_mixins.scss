@@ -5,6 +5,8 @@
 }
 
 @mixin menu-link {
+  display: block;
+  padding: 33px 25px;
   font-family: $font;
   font-size: 14px;
   line-height: 24px;
