@@ -4,7 +4,7 @@
   border: 1px solid red;
 }
 
-@mixin menu-link {
+@mixin desktop-tablet-menu-link {
   display: block;
   padding: 33px 25px;
   font-family: $font;
@@ -17,7 +17,7 @@
   text-decoration: none;
 }
 
-@mixin general-btn {
+@mixin desktop-tablet-general-btn {
   display: inline-block;
   min-width: 497px;
   min-height: 104px;
@@ -31,5 +31,26 @@
   text-align: center;
   background-color: $base-red;
   border-radius: 4px;
+}
+
+@mixin desktop-logo {
+  margin-right: auto;
+  font-family: $font;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  color: $base-white;
+  text-decoration: none;
+}
+
+@mixin phone {
+  margin: 0;
+  color: $base-white;
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  text-decoration: none;
 }
 

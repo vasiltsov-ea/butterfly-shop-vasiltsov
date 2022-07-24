@@ -39,7 +39,7 @@
 }
 
 .menu-link {
-  @include menu-link;
+  @include desktop-tablet-menu-link;
 
   &.link-catalogue {
     background-color: $base-red;

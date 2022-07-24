@@ -1,1 +1,48 @@
+.footer {
+  padding: 31px 0;
+  background-color: $base-dark;
+}
+
+.footer-inner {
+  @include inner;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+
+}
+
+.footer-logo {
+  @include desktop-logo;
+}
+
+.footer-phone {
+  @include phone;
+
+}
+
+.socials {
+  display: flex;
+  margin-left: 60px;
+  padding: 0;
+  list-style: none;
+}
+
+.social-icon {
+  margin-left: 15px;
+}
+
+.instagram {
+  margin-left: 0;
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
