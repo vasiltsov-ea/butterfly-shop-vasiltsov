@@ -21,7 +21,6 @@
   display: inline-block;
   min-width: 497px;
   min-height: 104px;
-  margin: 0;
   padding: 30px 36px 31px 48px;
   color: $base-white;
   font-weight: 400;
@@ -31,6 +30,7 @@
   text-align: center;
   background-color: $base-red;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 @mixin desktop-logo {
@@ -53,4 +53,5 @@
   line-height: 38px;
   text-decoration: none;
 }
+
 

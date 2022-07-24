@@ -8,36 +8,31 @@
 }
 
 .portfolio-title {
-    margin: 0 0 100px 0;
-    color: $base-dark;
-    font-family: $font;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 87px;
-  }
+  margin: 0 0 100px 0;
+  color: $base-dark;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+}
 
-  .portfolio-wrapper {
-    display: flex;
-    margin-right: -$gap;
-    margin-left: -$gap;
-    margin-bottom: $gap * 12;
-  }
+.portfolio-wrapper {
+  display: flex;
+  margin-right: -$gap;
+  margin-left: -$gap;
+  margin-bottom: $gap * 12;
+}
 
-  .portfolio-picture-box {
-    padding: 0 $gap;
-    flex-basis: 25%;
-  }
+.portfolio-picture-box {
+  padding: 0 $gap;
+  flex-basis: 25%;
+}
 
-  .portfolio-picture {
-    width: 100%;
-    background-color: #C4C4C4;
-    object-fit: cover;
-  }
+.portfolio-picture {
+  width: 100%;
+  background-color: #C4C4C4;
+  object-fit: cover;
+}
 
 
 
-// <section class="portfolio">
-// <div class="portfolio-inner">
-//         <h2 class="portfolio-title">Наши работы</h2>
-//         <div class="portfolio-pictures">
-//           <img class="portfolio-pictures-item" src="" alt="">
