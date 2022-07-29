@@ -16,6 +16,17 @@
   // Добавлять медиазапросы для планшетов и мобильных
 }
 
+  @mixin tabs-filters-title {
+  color: $base-dark;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  // Добавлять медиазапросы для мобильных
+}
+
 @mixin desktop-tablet-menu-link {
   display: block;
   padding: 33px 25px;
@@ -41,7 +52,7 @@
   text-decoration: none;
   text-align: center;
   background-color: $base-red;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
