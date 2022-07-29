@@ -4,6 +4,18 @@
   border: 1px solid red;
 }
 
+@mixin section-title {
+  font-family: $font;
+  color: $base-dark;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+
+  // Добавлять медиазапросы для планшетов и мобильных
+}
+
 @mixin desktop-tablet-menu-link {
   display: block;
   padding: 33px 25px;
@@ -53,5 +65,7 @@
   line-height: 38px;
   text-decoration: none;
 }
+
+
 
 

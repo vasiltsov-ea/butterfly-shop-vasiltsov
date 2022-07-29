@@ -9,11 +9,9 @@
 
 .portfolio-title {
   margin: 0 0 100px 0;
-  color: $base-dark;
-  font-family: $font;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 87px;
+
+  @include section-title;
+
 }
 
 .portfolio-wrapper {

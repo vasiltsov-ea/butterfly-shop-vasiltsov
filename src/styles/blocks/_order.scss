@@ -13,11 +13,10 @@
 
 .order-title {
   margin: 0 0 40px 0;
-  color: $base-dark;
-  font-family: $font;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 87px;
+
+  @include section-title;
+
+  // Добавлять медиазапрос для мобильника
 }
 
 .order-tagline {
@@ -27,6 +26,8 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 38px;
+
+  // Добавлять медиазапрос для мобильника
 }
 
 
