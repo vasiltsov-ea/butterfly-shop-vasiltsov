@@ -8,9 +8,11 @@
 }
 
 .works-title {
+  margin: 0;
+
   @include section-title;
 
-  margin: 0;
+
 }
 
 .works-filter {
@@ -28,6 +30,10 @@
 
 .works-filter-link {
   @include tabs-filters-title;
+
+  &.active {
+    color: $base-red;
+  }
 
 
 }
