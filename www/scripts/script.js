@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+// Кнопки в навигации Header
+$('.js-menu-link').on('click', function(){
+  $('.js-menu-link').removeClass('active');
+  $(this).addClass('active');
+})
+
 // Табы в контактах
   $('.js-tabs-link').on('click', function(){
     $('.js-tabs-link').removeClass('active');
@@ -11,7 +17,7 @@ $(document).ready(function(){
     $('.js-tabs-content').eq(index).addClass('active');
   })
 
-//Фильтры в работах
+// Фильтры в работах
 $('.js-filter-link').on('click', function(){
   let filter = $(this).data('filter');
 
@@ -34,6 +40,9 @@ $('.js-filter-link').on('click', function(){
     }
   });
 });
+
+// Slick-slider
+
 
 
 
