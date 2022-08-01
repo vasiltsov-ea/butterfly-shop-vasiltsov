@@ -1,11 +1,5 @@
 $(document).ready(function(){
 
-// Кнопки в навигации Header
-$('.js-menu-link').on('click', function(){
-  $('.js-menu-link').removeClass('active');
-  $(this).addClass('active');
-})
-
 // Табы в контактах
   $('.js-tabs-link').on('click', function(){
     $('.js-tabs-link').removeClass('active');
@@ -47,7 +41,7 @@ $('.js-filter-link').on('click', function(){
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToShow: 1
+    slidesToScroll: 1
   });
 
 

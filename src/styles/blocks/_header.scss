@@ -35,7 +35,7 @@
 .menu-link {
   @include desktop-tablet-menu-link;
 
-  &.active {
+  &.catalogue-link {
     background-color: $base-red;
   }
 }
