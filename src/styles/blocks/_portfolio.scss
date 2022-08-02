@@ -23,13 +23,17 @@
 .portfolio-picture-box {
   position: relative;
   flex-basis: 25%;
-  margin: 0 $gap;
-  background-color: #C4C4C4;
+  padding: 0 $gap;
+}
+
+.portfolio-picture-box-container {
+  position: relative;
+
 }
 
 .portfolio-picture-desc {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   width: 100%;
   padding: 15px 46px;
   margin: 0;
@@ -39,12 +43,13 @@
   line-height: 33px;
   color: $base-white;
   text-align: center;
-  background-color: rgba($base-dark, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .portfolio-picture {
   width: 100%;
   object-fit: cover;
+  background-color: #C4C4C4;
 }
 
 

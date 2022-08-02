@@ -15,8 +15,7 @@
 
 .works-filter {
   display: flex;
-  justify-content: center;
-  margin: 80px 0 40px 0;
+  margin: 77px 0 40px 0;
   padding: 0;
   list-style: none;
 }
@@ -32,43 +31,49 @@
   &.active {
     color: $base-red;
   }
-
-
 }
 
 .works-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin: -10px -10px 120px -10px;
+  margin: -$gap;
+  padding-bottom: $gap * 12;
 }
 
 .works-picture-box {
-  position: relative;
-  padding: 10px 10px;
-  margin: 0;
   flex-basis: 25%;
+  padding: $gap;
 }
 
-// .works-picture-desc {
-//   position: absolute;
-//   left: 0;
-//   top: 100%;
-//   width: 100%;
-//   // padding: 15px 49px;
-//   margin: 0;
-//   font-family: $font;
-//   font-weight: 400;
-//   font-size: 24px;
-//   line-height: 33px;
-//   color: $base-white;
-//   text-align: center;
-//   vertical-align: baseline;
-//   background-color: rgba(0, 0, 0, 0.4);
-// }
+.works-picture-box-container {
+  position: relative;
+}
+
+.works-picture-desc {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  padding: 15px 46px;
+  margin: 0px;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: $base-white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
 .works-picture {
   width: 100%;
-  background-color: #C4C4C4;
   object-fit: cover;
+  background-color: #C4C4C4;
 }
 
+// position: absolute;
+//   left: 0;
+//   bottom: 0;
+//   width: 100%;
+//   padding: 10px;
+//   color: $color-light;
+//   background-color: rgba($color-dark, .5);
