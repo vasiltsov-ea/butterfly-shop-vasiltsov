@@ -47,6 +47,7 @@
 
 .works-picture-box-container {
   position: relative;
+  // background-color: #C4C4C4; При установке цвета элемент увеличивается снижу на несколько пискселей.
 }
 
 .works-picture-desc {
@@ -66,14 +67,7 @@
 
 .works-picture {
   width: 100%;
-  object-fit: cover;
-  background-color: #C4C4C4;
+  object-fit: contain;
 }
 
-// position: absolute;
-//   left: 0;
-//   bottom: 0;
-//   width: 100%;
-//   padding: 10px;
-//   color: $color-light;
-//   background-color: rgba($color-dark, .5);
+

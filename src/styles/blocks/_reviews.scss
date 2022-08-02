@@ -11,3 +11,37 @@
 
   @include section-title;
 }
+
+.slick-item-wrapper {
+  display: flex;
+  width: 66.6%;
+  margin: 0 auto;
+}
+
+.slick-item-picture-container {
+  flex-basis: 37.5%;
+  padding-right: $gap;
+}
+
+.slick-item-text-container {
+  flex-basis: 62.5%;
+  padding-left: $gap;
+}
+
+.slick-text {
+  font-weight: 400;
+  text-align: left;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000;
+
+  .slick-text-username {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 65px;
+
+  }
+
+
+}

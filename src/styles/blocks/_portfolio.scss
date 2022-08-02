@@ -28,6 +28,7 @@
 
 .portfolio-picture-box-container {
   position: relative;
+  // background-color: #C4C4C4; При установке цвета элемент увеличивается снижу на несколько пискселей.
 
 }
 
@@ -48,8 +49,7 @@
 
 .portfolio-picture {
   width: 100%;
-  object-fit: cover;
-  background-color: #C4C4C4;
+  object-fit: contain;
 }
 
 
