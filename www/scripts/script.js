@@ -37,7 +37,7 @@ $('.js-filter-link').on('click', function(){
 
 // Slick-slider
   $('.js-slick-slider').slick({
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
